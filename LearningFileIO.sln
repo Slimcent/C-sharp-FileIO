@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryApp", "DirectoryApp\DirectoryApp.csproj", "{8A9F6294-9C06-4D83-B07B-D764C488BA17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFileIO", "SimpleFileIO\SimpleFileIO.csproj", "{B795AAD3-5B70-47CA-B209-DAB8E867738D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamWriterReaderApp", "StreamWriterReaderApp\StreamWriterReaderApp.csproj", "{D38A4FA3-ECA0-4BD1-A35A-D2F38142CF89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringReaderWriterApp", "StringReaderWriterApp\StringReaderWriterApp.csproj", "{7E07A519-8CE9-4986-93F6-7BE4973EB605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryWriterReaderApp", "BinaryWriterReaderApp\BinaryWriterReaderApp.csproj", "{8B8917CE-F65B-444F-84D9-A8C0DAC20730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDirectoryWatcher", "MyDirectoryWatcher\MyDirectoryWatcher.csproj", "{A8F91E6B-C28D-4C1C-9A23-183E4CAD97C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSerialize", "SimpleSerialize\SimpleSerialize.csproj", "{5602ADA8-C26B-4084-A113-3F0DCAF93CF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A9F6294-9C06-4D83-B07B-D764C488BA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A9F6294-9C06-4D83-B07B-D764C488BA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A9F6294-9C06-4D83-B07B-D764C488BA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A9F6294-9C06-4D83-B07B-D764C488BA17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B795AAD3-5B70-47CA-B209-DAB8E867738D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B795AAD3-5B70-47CA-B209-DAB8E867738D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B795AAD3-5B70-47CA-B209-DAB8E867738D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B795AAD3-5B70-47CA-B209-DAB8E867738D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D38A4FA3-ECA0-4BD1-A35A-D2F38142CF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38A4FA3-ECA0-4BD1-A35A-D2F38142CF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38A4FA3-ECA0-4BD1-A35A-D2F38142CF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38A4FA3-ECA0-4BD1-A35A-D2F38142CF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E07A519-8CE9-4986-93F6-7BE4973EB605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E07A519-8CE9-4986-93F6-7BE4973EB605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E07A519-8CE9-4986-93F6-7BE4973EB605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E07A519-8CE9-4986-93F6-7BE4973EB605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B8917CE-F65B-444F-84D9-A8C0DAC20730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8917CE-F65B-444F-84D9-A8C0DAC20730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8917CE-F65B-444F-84D9-A8C0DAC20730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8917CE-F65B-444F-84D9-A8C0DAC20730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F91E6B-C28D-4C1C-9A23-183E4CAD97C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F91E6B-C28D-4C1C-9A23-183E4CAD97C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F91E6B-C28D-4C1C-9A23-183E4CAD97C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F91E6B-C28D-4C1C-9A23-183E4CAD97C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5602ADA8-C26B-4084-A113-3F0DCAF93CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5602ADA8-C26B-4084-A113-3F0DCAF93CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5602ADA8-C26B-4084-A113-3F0DCAF93CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5602ADA8-C26B-4084-A113-3F0DCAF93CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E84DE035-61A6-483A-A716-1ED078F72240}
+	EndGlobalSection
+EndGlobal
